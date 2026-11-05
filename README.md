@@ -1,8 +1,10 @@
 Groq-Powered Coding Agent
+
 A simple Python-based AI coding agent that helps identify and fix straightforward bugs in C++ source files using Groq's `openai/gpt-oss-120b` model and native tool calling.
 The project uses a small tool-calling loop without LangGraph.
 
 Features
+
 Accepts bug descriptions in plain English.
 Searches the project directory for relevant source files.
 Searches inside a selected file using keywords or a line range.
