@@ -30,13 +30,11 @@ A suggested project layout is:
 Groq-Coding-Agent/
 ├── coding_agent.py
 ├── boiler_plate.cpp
-├── requirements.txt
 ├── README.md
 ├── .env.example
 └── .gitignore
 ```
 
-Do not upload your real `.env` file or your virtual environment (`.venv/`).
 
 ## Requirements
 
@@ -59,26 +57,9 @@ uv venv
 .venv\Scripts\activate
 ```
 
-Alternatively:
-
-```powershell
-python -m venv .venv
-.venv\Scripts\activate
-```
 
 ### 3. Install dependencies
 
-Using `uv`:
-
-```powershell
-uv pip install -r requirements.txt
-```
-
-Or using pip:
-
-```powershell
-pip install -r requirements.txt
-```
 
 You can also add the packages to a uv-managed project with:
 
@@ -138,6 +119,4 @@ When prompted, describe the bug in simple English.
 - `groq` Python SDK
 - `python-dotenv`
 
-## License
 
-No license has been specified yet. Add a license file if you want to define how others may use, modify, and distribute this project.
